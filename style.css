@@ -69,7 +69,7 @@ body{
 .envelope > .letter > .text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--txt-color);
-  text-align: left;
+  text-align: center;
   font-size: 10px;
 }
 .heart {
@@ -101,7 +101,7 @@ body{
   right: 7.5px;
 }
 .flap > .envelope:before {
-  transform: rotateX(180deg);
+  transform: rotateX(145deg);
   z-index: 0;
 }
 .flap > .envelope > .letter {
@@ -110,6 +110,6 @@ body{
   transition-delay: 1s;
 }
 .flap > .heart {
-  transform: rotate(90deg);
+  transform: rotate(145deg);
   transition-delay: 0.4s;
 }
