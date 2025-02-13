@@ -67,9 +67,9 @@ body{
 }
 
 .envelope > .letter > .text {
-  font-family: 'Comic Sans MS', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--txt-color);
-  text-align: left;
+  text-align: center;
   font-size: 10px;
 }
 .heart {
