@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Envelope + Letter (Open/Close on Click)</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Valentine Day Card</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -13,9 +13,13 @@
             <div class="envelope">
                 <div class="letter">
                     <div class="text">
-                        <strong>Morning Motivation</strong>
+                       
                         <p>
-                            "If you can dream it, you can do it" — Walt Disney
+                          <b>
+                            I never knew love could be this magical until I met you. <br> <br>
+                            "Will You Be My Valentine This 14th February ?" </br> </br>
+                                                                                        </b>
+                          
                         </p>
                     </div>
                 </div>
@@ -23,7 +27,7 @@
             <div class="heart"></div>
         </div>
     </div>
-    <script>
+      <script>
         const envelope = document.querySelector('.envelope-wrapper');
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
